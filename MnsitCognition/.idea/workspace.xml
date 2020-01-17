@@ -14,7 +14,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1WTZ6bn5UVvNlczxkPPaeFkifYj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,6 +27,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -74,6 +79,7 @@
       <updated>1579175372601</updated>
       <workItem from="1579175415696" duration="4928000" />
       <workItem from="1579250120325" duration="27000" />
+      <workItem from="1579251103120" duration="2603000" />
     </task>
     <servers />
   </component>

@@ -19,7 +19,7 @@ class neuralNetwork:
         self.oNodes = outputNodes
         self.lr= learningrating
 
-        # 初始化权重
+        # 初始化权重  0 是输入到  第一个隐藏层的；  1是  最后一个隐藏层到输出层的权重
         self.wAll = []
         # 第一层
         self.wAll.append(numpy.random.normal(0.0, pow(self.iNodes, -0.5), (self.hNodes[0], self.iNodes)))
@@ -38,3 +38,9 @@ class neuralNetwork:
 
         # 初始化 激活函数
         self.activation_function = lambda x: scipy.special.expit(x)
+
+    def train(self, inputs_list, targets_list):
+        # convert inputs list to 2d array
+        inputs = numpy.array(inputs_list, ndmin=2).T
+        targets = numpy.array(targets_list, ndmin=2).T
+        
